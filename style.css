@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    background-image: url(https://cutewallpaper.org/27/black-and-grey-sticker-bomb-wallpaper/103083884.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+.calculadora{
+    position: absolute;
+    background-color: #000000d0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+.btn{
+    width: calc(25% - 10px);
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #cfc6c6ce;
+    color: #000000;
+    box-shadow: 1px 1px 5px #585757;
+    cursor: pointer;
+}
+.ac{
+    background-color: #f32d2dea;
+}
+.operator{
+    background-color: #ecec3b;
+}
+.bksp{
+    background-color: #df37ee;
+}
+.equal{
+    background-color: #f79627;
+}
+.duble-zero{
+    width: calc(50% - 10px);
+}
+.btn:hover{
+    background-color: #fff;
+}
+.btn:active{
+    /* transition: .1s; */
+    transform: scale(0.9);
+}
+.operator:hover{
+    background-color: #ffff00;
+}
+.equal:hover{
+    background-color: #ff7b00;
+}
+.ac:hover{
+    background-color: #ff0000;
+}
+.bksp:hover{
+    background-color: #ff00ea;
+}
+#display{
+    background-color: #000;
+    border-radius: 5px;
+    width: 207px;
+    height: 40px;
+    margin: 5px;
+    text-align: right;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+}
